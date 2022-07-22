@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* ========Head Section CSS Start========== */
+#head-section{
+    background:linear-gradient(0deg, rgba(6, 0, 3, 0.6), rgba(6, 0, 3, 0.6)), url(/images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+}
+#head-section .head-text{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0%;
+    text-align: center;
+}
+#head-section .head-text h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+}
+#head-section .head-text p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+/* ========Head Section CSS End========== */
