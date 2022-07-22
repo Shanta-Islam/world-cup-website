@@ -3,38 +3,68 @@
     padding: 0;
 }
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+.row{
+    display: flex;
+}
+
 /* ========Head Section CSS Start========== */
 #head-section{
-    background:linear-gradient(0deg, rgba(6, 0, 3, 0.6), rgba(6, 0, 3, 0.6)), url(/images/donation5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    width: 100%;
-    min-height: 80vh;
+    background: #161616;
+    border-radius: 30px;
+    margin: 30px 120px;
+    padding: 40px;
 }
 #head-section .head-text{
-    position: absolute;
     width: 100%;
     top: 30%;
     left: 0%;
     text-align: center;
+    width: 50%;
+    padding: 20px;
 }
 #head-section .head-text h1{
-    font-family: 'Inter';
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 65px;
-    line-height: 79px;
-    color: #FFFFFF;
+    font-size: 70px;
+    line-height: 80px;
+    color: #fff;
+    text-align: left;
 }
 #head-section .head-text p{
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     color: #FFFFFF;
-    margin-top: 30px;
+    text-align: left;
+}
+#head-section .watch-btn{
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 15px 27px;
+    display: flex;
+    justify-content: left;
+    color: #fff;
+    margin-top: 16px;
+}
+#head-section .watch-btn .arrow{
+    margin: auto;
+    margin-left: 10px;
+}
+#head-section img{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 0px;
 }
 /* ========Head Section CSS End========== */
+/* ========Button Section CSS Start========== */
+.buttons-section{
+    margin: 30px 120px;
+}
+.buttons-section .buttons{
+    background: #161616;
+    border-radius: 10px;
+    width: 30%;
+}
