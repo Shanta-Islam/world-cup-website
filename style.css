@@ -62,7 +62,7 @@ body{
 /* ========Head Section CSS End========== */
 /* ========Button Section CSS Start========== */
 .buttons-section{
-    margin: 30px 120px;
+    margin: 30px 65px;
     display: flex;
 }
 .buttons-section .buttons{
@@ -83,24 +83,38 @@ body{
     margin: 10px 0px;
     cursor: pointer;
 }
-.buttons-section .buttons .up-match-btn, .all-group-btn, .blog-btn{
+.buttons-section .buttons .up-match-btn, .all-group-btn{
     text-decoration: none;
     color: #000;
-    width: 100px;
-    
+    width: 100px;   
 }
-.buttons-section .buttons .up-match-btn:active, .all-group-btn:active, .blog-btn:active{
+.buttons-section .buttons .blog{
     background: #DD0000;
+    color: #fff;
+}
+.buttons-section .buttons .blog-btn{
+    color: #fff;
+    text-decoration: none;
 }
 .buttons-section .right-side-info{
-    width: 60%;
+    width: 77%;
     margin-left: 30px;
     margin-top: 30px;
-    text-align: center;
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
-.buttons-section .right-side-info .single-flag-part{
+.buttons-section .right-side-info .single-flag-container{
+    margin-top: 40px;
+}
+.buttons-section .right-side-info .single-flag-container .single-flag-part{
     display: flex;
 }
 .buttons-section .right-side-info .flag-part1,.flag-part2{
     margin: 0px 20px
+}
+.buttons-section .right-side-info .text p{
+    text-align: center;
 }
